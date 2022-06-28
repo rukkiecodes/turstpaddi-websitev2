@@ -53,6 +53,59 @@ const waitlist = useWaitlistStore()
       />
     </div>
   </section>
+  <section class="py-20 lg:px-28 linear">
+    <div class="text-3xl font-bold text-center mt-5 text-blue">
+      Introducing Trustpaddi
+    </div>
+    <p class="text-center text-xs text-gray">
+      The safest and surest way to transact
+    </p>
+    <div class="lg:flex mt-16">
+      <div class="w-80 m-8">
+        <img
+          src="../assets/icons/pay-dollar.png"
+          alt=""
+        />
+        <div class="text-lg font-bold my-3 text-blue">Escrow Payment</div>
+        <div class="text-gray">
+          We offer an escrow payment platform that bridge the trust issues
+          between sellers and there potential online customers
+        </div>
+      </div>
+      <div class="w-80 m-8">
+        <img
+          src="../assets/icons/dashboard.png"
+          alt=""
+        />
+        <div class="text-lg font-bold my-3 text-blue">
+          Order Management System
+        </div>
+        <div class="text-gray">
+          We have an order management system, order fulfilment system and sales
+          tracking system all in one platform to make online selling easy and
+          stress-free.
+        </div>
+      </div>
+      <div class="w-80 m-8">
+        <img
+          src="../assets/icons/pay-dollar.png"
+          alt=""
+        />
+        <div class="text-lg font-bold my-3 text-blue">No Cash Risk</div>
+        <div class="text-gray">
+          An easier solution for sellers to make sales to prospective buyers
+          outside there reach (States) without having to deal with the risk
+          associated with cash on delivery
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto lg:w-2/5 w-3/5 mt-10">
+      <img
+        src="../assets/celebration.png"
+        alt=""
+      />
+    </div>
+  </section>
   <section class="bg-who lg:px-32 py-20 relative">
     <div class="text-3xl text-bold text-center text-white my-3">
       Who can use Trustpaddi

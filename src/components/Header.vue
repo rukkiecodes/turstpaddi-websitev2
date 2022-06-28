@@ -18,7 +18,7 @@ export default {
 
 <template>
   <div class="mobile justify-between fixed top-0 w-full bg-white z-10">
-    <div class="lg:flex p-3 justify-between lg:px-32 px-4">
+    <div class="lg:flex p-3 justify-between lg:px-32 px-4 sm:hidden">
       <div class="lg:flex justify-between">
         <img class="w-10 h-10" src="../assets/logo.png" alt="" />
         <div
@@ -39,11 +39,6 @@ export default {
           class="p-2 bg-blue w-40 rounded-3xl text-white"
         />
       </div>
-    </div>
-    <div class="absolute top-5 right-5 lg:hidden block">
-      <button @click="nav = !nav">
-        <img src="../assets/icons/bar.png">
-      </button>
     </div>
   </div>
 </template>

@@ -5,27 +5,6 @@ import { useWaitlistStore } from '../store/waitlist'
 const buyer = true
 
 const waitlist = useWaitlistStore()
-
-
-// export default {
-//   data () {
-//     return {
-//       buyer: true,
-//     };
-//   },
-//   methods: {
-//     ...mapActions(useWaitlistStore, ["sendNewWait"]),
-
-//     toggleBuyer () {
-//       this.buyer = !this.buyer;
-//     },
-//   },
-//   components: { Slider },
-
-//   computed: {
-//     ...mapState(useWaitlistStore, ["email", "loading", "snack", "text"])
-//   }
-// };
 </script>
 
 
@@ -120,30 +99,6 @@ const waitlist = useWaitlistStore()
           to as much order as you want and enjoy peace of mind knowing you will
           get paid instantly without stories.
         </div>
-      </div>
-    </div>
-    <div class="text-center">
-      <input
-        type="button"
-        value="Get Started"
-        class="p-3 bg-white rounded-3xl px-16 text-blue"
-      />
-    </div>
-  </section>
-  <section class="my-24 testimonials mx-auto lg:w-9/12">
-    <Slider />
-  </section>
-  <section>
-    <div class="lg:w-8/12 p-8 rounded-3xl mx-auto safe">
-      <div class="text-3xl font-bold text-center my-5 text-blue">
-        Better safe than sorry
-      </div>
-      <div class="text-center">
-        <input
-          type="button"
-          value="Get Started"
-          class="p-3 bg-blue rounded-3xl px-16 text-white"
-        />
       </div>
     </div>
   </section>
